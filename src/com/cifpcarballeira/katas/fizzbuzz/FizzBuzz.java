@@ -12,12 +12,16 @@ package com.cifpcarballeira.katas.fizzbuzz;
 public class FizzBuzz {
 
     public String getFizzBuzz(int i){
+
             if (Integer.toString(i).contains("3") && Integer.toString(i).contains("5")) return "FizzBuzz";       
-            else if(i%3==0 && i%5==0)return "FizzBuzz";
+            else if(i%3==0 && i%5==0) return "FizzBuzz";
             else if (i%3==0 )return "Fizz";
             else if(i%5==0)return "Buzz";            
+            if(i%3==0 && i%5==0 ) return "FizzBuzz";
+            else if (i%3==0) return "Fizz";
+            else if(i%5==0 || Integer.toString(i).contains("5")) return "Buzz";            
             else return Integer.toString(i);
-            
+    
             //|| Integer.toString(i).contains("3")
             
 

@@ -67,6 +67,7 @@ public class Testfizzbuzz {
                   
      }
      
+
           @Test
      public void testContiene35devuelveFizzBuzz() {
      
@@ -77,6 +78,18 @@ public class Testfizzbuzz {
      }
      
  
+
+     @Test
+     public void testcontiene5devuelveBuzz() {
+     
+         FizzBuzz fb= new FizzBuzz();
+         String result=fb.getFizzBuzz(59);
+         assertEquals("Buzz",result );
+                  
+     }
+     
+     
+
      
      
      
