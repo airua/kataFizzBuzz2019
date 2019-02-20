@@ -29,4 +29,14 @@ public class Testfizzbuzz {
          
          
      }
+     
+     @Test
+     public void test2devuelve2() {
+     
+         FizzBuzz fb= new FizzBuzz();
+         String result=fb.getFizzBuzz(2);
+         assertEquals("2",result );
+         
+         
+     }
 }

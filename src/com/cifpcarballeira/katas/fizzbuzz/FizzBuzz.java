@@ -19,7 +19,7 @@ public class FizzBuzz {
                 return "Buzz";
             }
             else{*/
-                return "1";
+                return Integer.toString(i);
             //}
             
 
